@@ -1,0 +1,46 @@
+html {
+  background: #333;
+}
+
+.qr-code body {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #646262;
+  width: 80%;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.qr-code {
+  width: 250px;
+  height: 410px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+div {
+  width: 200px; /* largura da div */
+  margin: 0 auto; /* define margem superior e inferior como 0 e margem lateral como 'auto' */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
